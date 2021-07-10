@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+* {
+    font-family: 'Antonio', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    background-color: #E4EBF5;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+    flex-direction: column;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    background-color: #2E3B65;
+    height: 4rem;
+    padding-top: 1rem;
+    color: #FFF;
+}
+
+.nav__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__logo {
+    font-size: 1.2rem;
+}
+
+.nav__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 4rem;
+}
+
+.nav__list a {
+    color: #FFF;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.nav__list a:hover {
+    color: #E4EBF5;
+    text-decoration: underline;
+}
+
+.home__text {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2E3B65;
+    padding-top: 15rem;
+}
+
+.home__img img {
+    width: 350px;
+}
+
+.about__text {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #E4EBF5;
+    padding-bottom: 15rem;
+}
+
+.about__img img {
+    padding-top: 1rem;
+    width: 350px;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        flex-direction: row;
+    }
+    .home__text {
+        font-size: 5rem;
+        font-weight: 600;
+        color: #2E3B65;
+    }
+    .home__img img {
+        width: 500px;
+    }
+    .about__text {
+        font-size: 5rem;
+        font-weight: 600;
+        color: #E4EBF5;
+    }
+    .about__img img {
+        width: 500px;
+    }
+    .nav__logo {
+        font-size: 1.5rem;
+    }
+    .nav__list a {
+        color: #FFF;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+}
