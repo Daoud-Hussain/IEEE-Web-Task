@@ -117,4 +117,10 @@ section {
         font-size: 1.2rem;
         text-decoration: none;
     }
+    .main-footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
 }
